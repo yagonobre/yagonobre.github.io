@@ -12,8 +12,8 @@ paginate: 20
 baseurl: /
 domain_name: 'https://yagonobre.com'
 google_analytics: 'UA-86895467-1'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+disqus: true
+disqus_shortname: 'yagonobre'
 
 # Details for the RSS feed generator
 url:            'https://yagonobre.com'

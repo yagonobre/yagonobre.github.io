@@ -8,14 +8,17 @@ Como o AWS Simple Storage System, S3, você pode hospedar seu site estatico (HTM
 
 
 1. Criar um bucket no s3
+
 O bucket precisa ter o mesmo nome o dominio que você vai hospedar nele.
 image1
 Digite o nome do seu bucket escolha a região e clique em "Create".
 
 2. Faça o upload dos seus arquivos
+
 Basta arrastar seus arquivos para dentro do seu bucket ;)
 
 3. Deixe seus arquivos publicos
+
 Va em Permissions -> Bucket Policy e adicione a seguinte politica
 {% highlight bash %}
 {

@@ -36,3 +36,13 @@ Va em Permissions -> Bucket Policy e adicione a seguinte politica
 	]
 }
 {% endhighlight %}
+
+4. Ative o static website hosting
+
+Em Properties clique em Static website hosting
+![](https://s3.amazonaws.com/yagonobre.com/02.png)
+Basta configurar igual a imagem :)
+
+5. Configure o CNAME no seu DNS
+
+No seu DNS basta criar uma entrada tipo CNAME do seu dominio para o endereço mostrado na imagem anterior.
